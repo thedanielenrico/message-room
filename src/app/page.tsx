@@ -1,5 +1,9 @@
-import Image from "next/image";
+import MessageForm from "@/components/MessageForm";
 
 export default function Home() {
-  return <div>home page</div>;
+  return (
+    <section className="text-center my-12">
+      <MessageForm />
+    </section>
+  );
 }
